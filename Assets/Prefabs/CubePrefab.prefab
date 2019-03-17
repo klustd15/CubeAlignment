@@ -22,11 +22,11 @@ GameObject:
   - component: {fileID: 33991122359300816}
   - component: {fileID: 23812980291939760}
   - component: {fileID: 65706024770830408}
-  - component: {fileID: 114976478304066142}
   - component: {fileID: 114315676487913362}
+  - component: {fileID: 114374250280501608}
   m_Layer: 0
   m_Name: CubePrefab
-  m_TagString: Untagged
+  m_TagString: cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1032628910783014}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -115,7 +115,7 @@ MonoBehaviour:
   PositionLerpSpeed: 0.2
   RotationLerpSpeed: 0.2
   IsDraggingEnabled: 1
---- !u!114 &114976478304066142
+--- !u!114 &114374250280501608
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,6 +123,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1032628910783014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e270220b59da5534fb68bd1aa0f2ffb3, type: 3}
+  m_Script: {fileID: 11500000, guid: c9fd37932b1dbf74fbc9bc4d2799cb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
